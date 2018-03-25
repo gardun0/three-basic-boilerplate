@@ -1,15 +1,15 @@
 {
   "name": "threejs-learning",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "start:build": "webpack --config ./config/webpack.config.prod.js",
     "start:dev": "webpack-dev-server --config ./config/webpack.config.dev.js --color"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["threejs", "webpack", "webgl"],
+  "author": "Jorge Garduño <damnyorch@gmail.com>",
+  "license": "GPL-3.0",
   "devDependencies": {
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
